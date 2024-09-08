@@ -1,13 +1,35 @@
 # Data Analysis in R
 
-There are three data analysis in this repository:
+This repository contains data analysis projects focused on SAT performance and world happiness, performed using R programming. Each project includes detailed insights and visualizations that explore the datasets and uncover key factors impacting various outcomes.
 
-<ul>
+## Project 1: SAT Performance Analysis (2012-2013)
 
-<li>The SAT Performance folderis a data analysis on 2012-2013 SAT School Participation and Performance. The code is in SAT_Performance.Rmd, the datasets are SAT_School_Participation_and_Performance__2012-2013.csv and school_scores.csv. SAT_Performance.pdf is this analysis in pdf format.</li>
+This analysis explores how different factors influence SAT performance across U.S. high schools from 2012 to 2013. The focus is on understanding the relationships between SAT participation, GPA, years of study, and their impact on SAT scores.
 
-<li>The World Happiness folder is a data analysis on the world happiness dataset. The code is in World_Happiness.Rmd, the datasets are in the word_happiness dataset folder, and World_Happiness.pdf is this analysis in pdf format.</li>
+### Key Insights:
+- **Participation Rate**: A positive relationship exists between SAT participation rates and overall performance.
+- **GPA Correlation**: Higher GPA in Math and English strongly correlates with higher SAT scores.
+- **Years of Study**: Students with more years of study in Math and English tend to score higher on the SAT.
 
-<li>The myEDA folder is an exploratory data analysis on 1994 US census. The code is in myEDA.Rmd, the dataset is called adult.data, and myEDA.pdf is this analysis in pdf format.</li>
-  
-</ul>
+For a full analysis of the data, check the detailed report: [SAT_Performance.pdf](./SAT_Performance.pdf).
+
+---
+
+## Project 2: World Happiness Report (2015-2019)
+
+In this project, we explore the Global Peace Index (GPI) and World Happiness data from 2015 to 2019. The report analyzes key drivers of happiness across countries, with a focus on the economic and social factors affecting happiness levels.
+
+### Key Insights:
+- **Happiness Trends**: Venezuela showed a significant drop in happiness scores from 2015 to 2017 due to economic and political issues.
+- **Key Factors**: Economy, Family, and Health were the top factors correlated with happiness, while Generosity had minimal impact.
+- **Regional Focus**: Sub-Saharan Africa was the poorest region, with low GDP and life expectancy contributing to lower happiness scores.
+
+For more detailed insights, check the full report: [World_Happiness.pdf](./World_Happiness.pdf).
+
+---
+
+## Tools & Technologies Used:
+- **Language**: R
+- **Libraries**: ggplot2, dplyr, tidyr, CORGIS Dataset
+- **Visualizations**: Scatter plots, correlation matrices, bar charts, and world maps
+
